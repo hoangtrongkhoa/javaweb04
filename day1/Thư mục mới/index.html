@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cascading stylesheet</title>
+    <link rel="stylesheet" href="style.css"
+<!-- Cách nhúng CSS sử dụng thẻ style gọi là Internal css  -->
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    p{
+        text-align: center;
+        text-decoration: underline;
+    }
+    #container {
+       /* width: 100%; */
+        height:200px;
+        background-color: tomato;
+        padding-top: 20px ;
+        padding-left: 20px;
+        box-sizing: border-box;
+        margin: 20px;
+          }
+          .mau-sac{
+              color: yellow;
+              background-color: tomato;
+          }
+          .van-tho{
+              font-size: 24px;
+              text-transform: capitalize;
+          }
+</style>
+
+
+</head>
+<body>
+    <!-- cách nhúng CSS tại phần tử HTMl: gọi là Inline CSS  -->
+    <p style="color:red; background-color: springgreen; font-size: 20px; font-weight: bold;">hôn nay, tôi học css</p>
+    <div id="container">
+        Hom nay troi am u, mat nhung khong nong.
+    </div>
+    <p class="mau-sac van-tho">Trăm năm trong cõi người ta</p>
+    <p class="van-tho">Chữ tài chữ vận khéo là ghét nhau</p>
+    <h1>Bai viet lien quan</h1>
+</body>
+</html>
