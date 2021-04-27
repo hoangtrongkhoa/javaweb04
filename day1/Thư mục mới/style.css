@@ -1,4 +1,66 @@
-/* File external css */
-h1{
-    color: blueviolet;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f7fa;
+}
+
+#container {
+    background-color: white;
+    width: 70%;
+    margin: 50px auto;
+    padding: 30px;
+    color: #464646;
+    font-family: Roboto, sans-serif;
+}
+
+.date {
+    margin-bottom: 10px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 16px;
+
+}
+
+h1 {
+    margin-bottom: 16px;
+}
+
+a {
+    color: #464646;
+    text-decoration: none;
+}
+
+.tag {
+    border: 1px; solit: #c4c4c4;
+    border-radius: 2px;
+    padding: 3px;
+    font-size: 13px;
+    background-color: #e5e5e5;
+    font-weight: bold;
+    margin-right: 2px;
+    color: gray;
+
+}
+
+hr {
+    margin-top: 16px;
+    border: none;
+    width: 1px;
+    background-color: #c4c4c4;
+}
+
+.doan-van {
+    margin-bottom: 1rem;
+    font-style: italic;
+    font-size: 16px;
+    color: #464646;
+    font-weight: 400;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.75rem;
+    letter-spacing: -0.003em;
 }
