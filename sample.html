@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        p {
+            color: white;
+            font-size: 30px;
+        }
+        .parent {
+            width: 615px;
+            height: 400px;
+            display: flex;
+        }
+
+        .left {
+            width: 400px;
+            background-color: red;
+        }
+
+        .right {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .div-200 {
+            height: 200px;
+            width: 200px;
+        }
+
+        .top {
+            background-color: green;
+        }
+
+        .bottom {
+            background-color: blue;
+        }
+        .text-center-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .space-between {
+            justify-content: space-between;
+        }
+
+    </style>
+</head>
+<body>
+<div class="parent">
+    <div class="left text-center-wrapper">
+        <p>Height: 400px</p>
+    </div>
+    <div class="right">
+        <div class="top text-center-wrapper div-200">
+            <p>Height: 200px</p>
+        </div>
+        <div class="bottom text-center-wrapper div-200">
+            <p>Height: 200px</p>
+        </div>
+    </div>
+</div>
+
+<br>
+<br>
+
+<div class="parent space-between">
+    <div class="left text-center-wrapper">
+        <p>Height: 400px</p>
+    </div>
+    <div class="right">
+        <div class="top text-center-wrapper div-200">
+            <p>Height: 200px</p>
+        </div>
+        <div class="bottom text-center-wrapper div-200">
+            <p>Height: 200px</p>
+        </div>
+    </div>
+</div>
+
+<br>
+<br>
+
+</body>
+</html>
