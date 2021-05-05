@@ -8,6 +8,7 @@
             color: white;
             font-size: 30px;
         }
+
         .parent {
             width: 615px;
             height: 400px;
@@ -36,6 +37,7 @@
         .bottom {
             background-color: blue;
         }
+
         .text-center-wrapper {
             display: flex;
             align-items: center;
@@ -46,6 +48,32 @@
             justify-content: space-between;
         }
 
+        .parent3 {
+            width: 615px;
+            height: 500px;
+            display: flex;
+        }
+
+        .right2 {
+            height: 400px;
+            width: 400px;
+            display: flex;
+        }
+
+        .left2 {
+            height: 200px;
+            background-color: red;
+            height: 400px;
+            width: 200px;
+            display: flex;
+        }
+
+        .div-300 {
+            height: 400px;
+            width: 200px;
+            display: flex;
+        }
+
     </style>
 </head>
 <body>
@@ -54,10 +82,10 @@
         <p>Height: 400px</p>
     </div>
     <div class="right">
-        <div class="top text-center-wrapper div-200">
+        <div class="top text-center-wrapper div-300">
             <p>Height: 200px</p>
         </div>
-        <div class="bottom text-center-wrapper div-200">
+        <div class="bottom text-center-wrapper div-300">
             <p>Height: 200px</p>
         </div>
     </div>
@@ -79,9 +107,36 @@
         </div>
     </div>
 </div>
+<br>
+<br>
+<div class="parent3">
+    <div class="left2 text-center-wrapper">
+        <p>Height: 400px</p>
+    </div>
+    <div class="right2">
+        <div class="top text-center-wrapper div-300">
+            <p>Height: 200px</p>
+        </div>
+        <div class="bottom text-center-wrapper div-300">
+            <p>Height: 200px</p>
+        </div>
+    </div>
+</div>
 
-<br>
-<br>
+<div class="parent3 space-between">
+    <div class="left2 text-center-wrapper">
+        <p>Height: 400px</p>
+    </div>
+
+    <div class="top text-center-wrapper div-300">
+        <p>Height: 200px</p>
+    </div>
+    <div class="bottom text-center-wrapper div-300">
+        <p>Height: 200px</p>
+    </div>
+
+</div>
+
 
 </body>
 </html>
